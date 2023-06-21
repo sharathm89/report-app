@@ -1,14 +1,14 @@
 
 ## Install
 
-#### `make install`
+#### `make install` or `npm install`
 
 
 ## Run
 
-#### `make run`
+#### `make run` or `npm start`
 
 
 ## Generate PDF
 
-#### `make pdf`
+#### `make pdf` or `node generate-pdf`
