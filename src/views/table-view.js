@@ -16,12 +16,12 @@ const LIST = [
   {category: "Car", subCategory: "BMW", rank: "C", bgColor: "#D3A84F"},
 ];
 
-const RiskScorecardView = ({ list }) => {
+const TableView = ({ list }) => {
   return (
     <div style={{ display: "flex", flexDirection: "column", rowGap:"16px", padding: "0 10px" }}>
       <Title name="Table View" />
 
-      <div style={{ color: "blue", fontWeight: 600, fontSize: '18px' }}>Risk Score</div>
+      <div style={{ color: "blue", fontWeight: 600, fontSize: '18px' }}>Score</div>
 
       <Table>
         <table className="table">
@@ -56,4 +56,4 @@ const RiskScorecardView = ({ list }) => {
   );
 }
 
-export default RiskScorecardView;
+export default TableView;

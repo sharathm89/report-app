@@ -4,7 +4,7 @@ import { PieChart, Pie } from 'recharts';
 import Title from './components/title';
 import MainCard from './components/main-card';
 
-function DigitalRiskRating() {
+function GraphView() {
   const data1 = [
     { name: 'Group A', value: 125, fill: "green" },
     { name: 'Group B', value: 500, fill: "grey" },
@@ -81,4 +81,4 @@ function DigitalRiskRating() {
   );
 }
 
-export default DigitalRiskRating;
+export default GraphView;
