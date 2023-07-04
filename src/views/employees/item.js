@@ -62,7 +62,7 @@ const ItemView = ({ num, item }) => (
             </th>
             <th className="text-center">
               <Typography fontSize="14px" fontWeight={700}>
-                Risk
+                Type
               </Typography>
             </th>
           </tr>
