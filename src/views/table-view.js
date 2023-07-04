@@ -23,34 +23,32 @@ const TableView = ({ list }) => {
 
       <div style={{ color: "blue", fontWeight: 600, fontSize: '18px' }}>Score</div>
 
-      <Table>
-        <table className="table">
-          <thead>
-            <tr className="table-row">
-             <th className="table-th">Sl.No</th>
-              <th className="table-th">Type</th>
-              <th className="table-th">Sub Type</th>
-              <th className="table-th">Merge</th>
-              <th className="table-th" style={{ textAlign: "center"}}>Rank</th>
-            </tr>
-          </thead>
+      <Table className="table">
+        <thead>
+          <tr className="table-row">
+            <th className="table-th">Sl.No</th>
+            <th className="table-th">Type</th>
+            <th className="table-th">Sub Type</th>
+            <th className="table-th">Merge</th>
+            <th className="table-th" style={{ textAlign: "center"}}>Rank</th>
+          </tr>
+        </thead>
 
-          <tbody>
-            {
-              [...LIST, ...LIST, ...LIST, ...LIST].map((item, index) => (
-                <tr key={index} className="table-data">
-                  <td style={{ fontWeight: 600, textTransform: "capitalize" }}>{index+1}</td>
-                  <td style={{ textTransform: "capitalize" }}>{item.category}</td>
-                  <td style={{ textTransform: "capitalize" }}>{item.subCategory}</td>
-                  <td style={{ textTransform: "capitalize" }}>{`${item.category} ${item.subCategory}`}</td>
-                  <td style={{ backgroundColor: item.bgColor, textAlign: "center" }}>
-                    {item.rank}
-                  </td>
-                </tr>
-              ))
-            }
-          </tbody>
-        </table>
+        <tbody>
+          {
+            [...LIST, ...LIST, ...LIST, ...LIST].map((item, index) => (
+              <tr key={index} className="table-data">
+                <td style={{ fontWeight: 600, textTransform: "capitalize" }}>{index+1}</td>
+                <td style={{ textTransform: "capitalize" }}>{item.category}</td>
+                <td style={{ textTransform: "capitalize" }}>{item.subCategory}</td>
+                <td style={{ textTransform: "capitalize" }}>{`${item.category} ${item.subCategory}`}</td>
+                <td style={{ backgroundColor: item.bgColor, textAlign: "center" }}>
+                  {item.rank}
+                </td>
+              </tr>
+            ))
+          }
+        </tbody>
       </Table>
     </div>
   );

@@ -45,10 +45,8 @@ const App = () => {
           </PageHeader>
 
           <PageContent>
-            <GraphView />
-
-            <PageBreak />
-            
+            {/* <GraphView />
+            <PageBreak /> */}
             <TableView  />
           </PageContent>
 
