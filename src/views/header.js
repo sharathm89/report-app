@@ -1,4 +1,4 @@
-const Header = ({ title }) => {
+const Header = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column", padding: "30px 0" }}>
       <div style={{
@@ -8,7 +8,7 @@ const Header = ({ title }) => {
           textTransform: "uppercase",
           textAlign: "center"
         }}>
-        {title}
+        Test Solutiosn Ltd
       </div>
     </div>
   );

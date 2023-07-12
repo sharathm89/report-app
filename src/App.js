@@ -6,32 +6,65 @@ import {
   ReportView,
   Section,
   PageHeader,
-  PageFooter
+  PageFooter,
 } from "@jikji/react";
 
-import Header from "./views/header";
-import Footer from "./views/footer";
 import TableView from "./views/table";
 
-import './App.css';
+import "./App.css";
 
 const App = () => (
   <ReportView>
     <ReportRoot>
       <Section dimension={pageSize.A4}>
         <PageHeader>
-          <Header title={"Test Solutiosn Ltd"} />
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              padding: "30px 0",
+            }}
+          >
+            <div
+              style={{
+                fontWeight: 600,
+                fontSize: "17px",
+                color: "red",
+                textTransform: "uppercase",
+                textAlign: "center",
+              }}
+            >
+              Test Solutiosn Ltd
+            </div>
+          </div>
         </PageHeader>
 
         <PageContent>
-          <TableView  /> 
+          <TableView />
         </PageContent>
 
         <PageFooter>
-          <Footer />
+          <div style={{ padding: "10px" }}>
+            <hr />
+
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-between",
+              }}
+            >
+              <div style={{ fontWeight: 600, fontSize: "15px", color: "grey" }}>
+                2023 All Rights Reserved
+              </div>
+
+              <div style={{ fontWeight: 600, fontSize: "15px", color: "red" }}>
+                01
+              </div>
+            </div>
+          </div>
         </PageFooter>
       </Section>
-
     </ReportRoot>
   </ReportView>
 );
