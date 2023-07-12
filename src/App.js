@@ -1,71 +1,39 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {
   PageContent,
-  PageFooter,
-  PageHeader,
   pageSize,
   ReportRoot,
   ReportView,
   Section,
-  // PageBreak,
+  PageHeader,
+  PageFooter
 } from "@jikji/react";
 
 import Header from "./views/header";
 import Footer from "./views/footer";
-import Cover from "./views/cover";
-// import GraphView from "./views/graph-view";
-// import TableView from './views/table-view';
-import Employees from "./views/employees";
-
-import { parseData1 } from "./parser";
+import TableView from "./views/table";
 
 import './App.css';
 
-const App = () => {
-  const [data, setData] = useState({});
+const App = () => (
+  <ReportView>
+    <ReportRoot>
+      <Section dimension={pageSize.A4}>
+        <PageHeader>
+          <Header title={"Test Solutiosn Ltd"} />
+        </PageHeader>
 
-  useEffect(() => {
-    const employees = require("./data/ex1.json");
+        <PageContent>
+          <TableView  /> 
+        </PageContent>
 
-    const params = {
-      clientName: "Industry Solutions",
-      employeesList: parseData1(employees || []),
-    };
+        <PageFooter>
+          <Footer />
+        </PageFooter>
+      </Section>
 
-    setData(params);
-  }, []);
-
-  return (
-    <ReportView>
-      <ReportRoot>
-
-        <Section dimension={pageSize.A4}>
-          <PageContent>
-            <Cover title={data.clientName || ''} />
-          </PageContent>
-        </Section>
-
-        <Section dimension={pageSize.A4}>
-          <PageHeader>
-            <Header title={data.clientName || ''} />
-          </PageHeader>
-
-          <PageContent>
-            <Employees list={data.employeesList || []} /> 
-            {/* <GraphView />
-            <PageBreak /> 
-            <TableView  />*/}
-          </PageContent>
-
-          <PageFooter>
-            <Footer />
-          </PageFooter>
-        </Section>
-
-      </ReportRoot>
-    </ReportView>
-  );
-}
-
+    </ReportRoot>
+  </ReportView>
+);
 
 export default App;

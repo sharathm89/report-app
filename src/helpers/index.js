@@ -4,11 +4,11 @@ import Constants from "./constants";
 export const getColorCode = (value) => {
   const typeValue = value.toLowerCase();
 
-  if (typeValue === "negative" || typeValue === "critical" || typeValue === "very high") {
+  if (typeValue === "negative" || typeValue === "mandatory" || typeValue === "very high") {
     return Constants.COLORS.ERROR;
   } else if (typeValue === "high") {
     return Constants.COLORS.PRIMARY;
-  } else if (typeValue === "low" || typeValue === "very low") {
+  } else if (typeValue === "optional" || typeValue === "very low") {
     return Constants.COLORS.BAY_OF_MANY;
   } else if (typeValue === "medium") {
     return Constants.COLORS.WARNING;
@@ -20,9 +20,9 @@ export const getColorCode = (value) => {
 export const getFontColorCode = (value) => {
   const typeValue = value.toLowerCase();
 
-  if (typeValue === "negative" || typeValue === "critical" || typeValue === "very high") {
+  if (typeValue === "negative" || typeValue === "mandatory" || typeValue === "very high") {
     return Constants.COLORS.WHITE;
-  } else if (typeValue === "low" || typeValue === "very low") {
+  } else if (typeValue === "optional" || typeValue === "very low") {
     return Constants.COLORS.WHITE;
   } else if (typeValue === "none") {
     return Constants.COLORS.MINE_SHAFT;

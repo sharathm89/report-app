@@ -1,19 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600,700&display=swap");
-
-body {
-  font-family: "Inter", sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
   margin: 0;
-}
+} */
 
-@media print {
+/* @media print {
   body {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
-}
+} */
 
 .table {
   border-collapse: collapse;
@@ -32,11 +26,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.table-body {
+.table-row {
   border-bottom: 1px solid #E1E1E1;
 
   > td {
     padding: 8px 0;
+  }
+
+  > td > h4 {
+    margin: 0;
   }
 }
 

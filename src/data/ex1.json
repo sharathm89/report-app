@@ -1,259 +1,398 @@
 [
     {
-        "name": "Person 1",
-        "list1": [
-            {
-                "added_date": "2023-04-10",
-                "breach_date": "2021-04-08",
-                "breach_source": "Scrape",
-                "risk_ratings": "Low"
-            },
-            {
-                "added_date": "2023-06-20",
-                "breach_date": "2021-03-16",
-                "breach_source": "Lux",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2020-02-20",
-                "breach_source": "Test 1",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2023-04-10",
-                "breach_date": "2019-10-16",
-                "breach_source": "Test 1",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2019-07-25",
-                "breach_source": "Test 1",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2019-02-25",
-                "breach_source": "IO",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2018-11-05",
-                "breach_source": "Single",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2023-04-10",
-                "breach_date": "2018-10-05",
-                "breach_source": "You been",
-                "risk_ratings": "Low"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2018-07-23",
-                "breach_source": "Mars",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2023-04-10",
-                "breach_date": "2018-06-12",
-                "breach_source": "Jupiter",
-                "risk_ratings": "Low"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2018-05-23",
-                "breach_source": "Nepture",
-                "risk_ratings": "High"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2017-07-18",
-                "breach_source": "B2B",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2012-05-05",
-                "breach_source": "Facebook",
-                "risk_ratings": "High"
-            }
-        ],
-        "ratings": "Medium",
-        "list2": [
-            {
-                "source": "Database",
-                "added_date": "2022-08-12",
-                "breach_date": "2018-04-26"
-            },
-            {
-                "source": "Database",
-                "added_date": "2022-08-12",
-                "breach_date": "2019-01-18"
-            },
-            {
-                "source": "Database",
-                "added_date": "2022-08-12",
-                "breach_date": "2019-01-17"
-            },
-            {
-                "source": "Database",
-                "added_date": "2022-08-12",
-                "breach_date": "2019-01-18"
-            }
-        ],
-        "list3": [
-            "Names",
-            "Education levels",
-            "Phone numbers",
-            "Employers",
-            "Physical addresses",
-            "Usernames",
-            "Passwords",
-            "Genders",
-            "Job titles",
-            "Test 1",
-            "Geographic",
-            "Email addresses",
-            "Office addresses",
-            "Salutations",
-            "Dates of birth"
-        ],
-        "count": 13
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
     },
     {
-        "name": "Person 2",
-        "list1": [
-            {
-                "added_date": "2023-04-10",
-                "breach_date": "2021-04-08",
-                "breach_source": "Scrape",
-                "risk_ratings": "Low"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2020-12-12",
-                "breach_source": "Economics",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2023-04-10",
-                "breach_date": "2021-04-08",
-                "breach_source": "Scrape",
-                "risk_ratings": "Low"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2020-12-12",
-                "breach_source": "Economics",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2023-04-10",
-                "breach_date": "2021-04-08",
-                "breach_source": "Scrape",
-                "risk_ratings": "Low"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2020-12-12",
-                "breach_source": "Economics",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2023-04-10",
-                "breach_date": "2021-04-08",
-                "breach_source": "Scrape",
-                "risk_ratings": "Low"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2020-12-12",
-                "breach_source": "Economics",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2023-04-10",
-                "breach_date": "2021-04-08",
-                "breach_source": "Scrape",
-                "risk_ratings": "Low"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2020-12-12",
-                "breach_source": "Economics",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2023-04-10",
-                "breach_date": "2021-04-08",
-                "breach_source": "Scrape",
-                "risk_ratings": "Low"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2020-12-12",
-                "breach_source": "Economics",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2023-04-10",
-                "breach_date": "2021-04-08",
-                "breach_source": "Scrape",
-                "risk_ratings": "Low"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2020-12-12",
-                "breach_source": "Economics",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2023-04-10",
-                "breach_date": "2021-04-08",
-                "breach_source": "Scrape",
-                "risk_ratings": "Low"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2020-12-12",
-                "breach_source": "Economics",
-                "risk_ratings": "Critical"
-            },
-            {
-                "added_date": "2023-04-10",
-                "breach_date": "2021-04-08",
-                "breach_source": "Scrape",
-                "risk_ratings": "Low"
-            },
-            {
-                "added_date": "2022-10-27",
-                "breach_date": "2020-12-12",
-                "breach_source": "Economics",
-                "risk_ratings": "Critical"
-            }
-        ],
-        "ratings": "Critical",
-        "list3": [
-            "Names",
-            "Education levels",
-            "Phone numbers",
-            "Credit cards",
-            "Employers",
-            "Physical addresses",
-            "Genders",
-            "Passwords",
-            "Usernames",
-            "Job titles",
-            "Geographic locations",
-            "Social media profiles",
-            "Email addresses",
-            "Office addresses",
-            "Salutations",
-            "Dates of birth"
-        ],
-        "count": 13
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
+    },
+    {
+        "source": "Scrape",
+        "addedDate": "09 Apr, 2023",
+        "updatedDate": "07 Apr, 2021",
+        "ratings": "Optional"
+    },
+    {
+        "source": "Economics",
+        "addedDate": "26 Oct, 2022",
+        "updatedDate": "11 Dec, 2020",
+        "ratings": "Mandatory"
     }
 ]
