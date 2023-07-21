@@ -324,6 +324,9 @@ const LIST = [
   },
 ];
 
+// duplicate for testing
+const FINAL_LIST = [...LIST, ...LIST, ...LIST, ...LIST, ...LIST, ...LIST, ...LIST, ...LIST, ...LIST];
+
 const TableView = () => (
   <div style={{ padding: "0 15px" }}>
     <Table className="table">
@@ -337,7 +340,7 @@ const TableView = () => (
       </thead>
 
       <tbody>
-        {LIST.map((item, index) => (
+        {FINAL_LIST.map((item, index) => (
           <tr key={index} className="table-row">
             <td>
               <h4>{item.ip}</h4>
