@@ -6,8 +6,8 @@ function Cover({ title }) {
   return (
     <div style={{ height: pageDimension.height, width: pageDimension.width,  position: "relative" }}>
       <Image
-        height={"1121px"}
-        width={"793px"}
+        height={"1120.5px"}
+        width={"793.7px"}
         src='https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba'
       />
 
